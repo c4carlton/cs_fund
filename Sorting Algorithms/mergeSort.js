@@ -20,12 +20,6 @@ let stitch = (left, right) => {
     }
   }
   return results.concat(left, right);
-  // while (left.length) {
-  //   results.push(left.shift());
-  // }
-  // while (right.length) {
-  //   results.push(right.shift());
-  // }
 };
 // mergeSort([7, 53, 7, 9, 1, 3]);
 mergeSort([32, 44, 22, 12, 55, 77, 2234]);
