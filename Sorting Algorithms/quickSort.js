@@ -12,6 +12,8 @@ const quickSort = items => {
       right.push(items[i]);
     }
   }
+  // using spread operator
+  // [...quickSort(left), pivot, ...quickSort(right)]
   return quickSort(left).concat(pivot, quickSort(right));
 };
 
